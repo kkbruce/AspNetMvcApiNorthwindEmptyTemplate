@@ -24,4 +24,8 @@ Visual Studio 2015 Update 3 的 Web 專案範本有個問題。
 
 ---
 
-you can search keyword "northwind" and direct download https://marketplace.visualstudio.com/items?itemName=KKBruce.AspNetMvcApiNorthwindEmptyTemplate, enjoy your ASP.NET Web project ;-) 
+you can search keyword "kkbruce" or "northwind" and direct download https://marketplace.visualstudio.com/items?itemName=KKBruce.AspNetMvcApiNorthwindEmptyTemplate, enjoy your ASP.NET Web project ;-) 
+
+---
+
+icon from : https://www.iconfinder.com/icons/669643/line-icon_networking_service_share_social_tripit_icon
