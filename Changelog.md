@@ -3,7 +3,8 @@
 ### 1.1
 <i><small>2017/2/14</small></i>
 
-Re-make all template, from net45 to net461.
+- All template from net45 update to net461.
+- rename template naming.
 
 ### 1.0
 <i><small>2017/2/9</small></i>
