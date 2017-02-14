@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="AspNetMvcApiNorthwindEmptyTemplate.Bruce.46d5aa72-a7b8-45a5-962a-16567dbd0f06" Version="1.0" Language="en-US" Publisher="kkbruce" />
+    <Identity Id="AspNetMvcApiNorthwindEmptyTemplate.Bruce.46d5aa72-a7b8-45a5-962a-16567dbd0f06" Version="1.1" Language="en-US" Publisher="kkbruce" />
     <DisplayName>AspNetMvcApiNorthwindEmptyTemplate</DisplayName>
     <Description xml:space="preserve">Provide Template to build a include Northwind_table.sql application for ASP.NET MVC 5  or  ASP.NET Web API 2 Empty Project</Description>
     <License>LICENSE.rtf</License>
-    <Icon>1486480742_Tripit.ico</Icon>
-    <PreviewImage>1486480742_Tripit.ico</PreviewImage>
+    <GettingStartedGuide>http://blog.kkbruce.net/2017/02/no-restart-visual-studio-web-template.html</GettingStartedGuide>
+    <ReleaseNotes>https://github.com/kkbruce/AspNetMvcApiNorthwindEmptyTemplate/blob/master/Changelog.md</ReleaseNotes>
+    <Icon>1487101845_Tripit.ico</Icon>
+    <PreviewImage>1487101845_Tripit.ico</PreviewImage>
     <Tags>ASP.NET MVC 5, ASP.NET Web API 2, Northwind, Project Template</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
   </Installation>
   <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.6.1,)" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Web\ApiEmptyNorthwindApplication.zip" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Web\MvcEmptyNorthwindApplication.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Web\ApiApplication.zip" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Web\MvcApplication.zip" />
   </Assets>
 </PackageManifest>
